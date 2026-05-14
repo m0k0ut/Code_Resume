@@ -30,5 +30,3 @@ This is a resume/career development workspace. Use the `paramchoudhary/resumeski
 | Write portfolio case studies | `/portfolio-case-study-writer` |
 | Build a reference list | `/reference-list-builder` |
 | Manage multiple resume versions | `/resume-version-manager` |
-
-Also available: `/tailored-resume-generator` (from `composiohq/awesome-claude-skills`) for end-to-end tailored resume generation.

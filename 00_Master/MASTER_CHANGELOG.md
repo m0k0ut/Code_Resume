@@ -1,5 +1,17 @@
 # Master Resume Changelog
 
+## 2026-05-13 — Gen AI Engineer Variant (branch: genai-engineer-resume)
+
+**Variant created:** `AI_Product` — Gen AI Engineer (remote) positioning
+
+**Approach:** Engineering-forward repositioning from TPM/PMO toward hands-on LLM/RAG work.
+- Reframed titles (engineering-leaning, defensible): AWS "Senior Generative AI Strategist" → "Generative AI Engineer & Strategist"; Psyk AI "Project Lead" → "AI Engineer — RAG & Conversational Agents"
+- Reordered sections: Technical Skills moved near top; added Projects section
+- Reordered certs to lead with AI certs (Duke AI PM, Claude Architect, NVIDIA GenAI, HF/Google AI Agents) over PMP/PMI-ACP
+- Added GitHub link to header; compressed Servify to one block; dropped Hitachi entirely
+- Added 3 real GitHub projects (github.com/m0k0ut): GAIA-agents (HF course capstone), Data-Science_Final-Project (MIDAS capstone), KubeUpgradeImpactSimulator_KUIS
+- NOTE: This is a stretch repositioning — role will have technical screens. Mohan must be able to defend every skill/project listed.
+
 ## 2026-05-13 — Miracle Software Systems Tailoring Session
 
 **Variant created:** `TPM_PMO` — Senior Technical Program Manager / PMO Lead positioning

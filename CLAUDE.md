@@ -33,18 +33,16 @@ All resumes in this project are written in **Markdown** and built using [junian/
 `Tupakula_<Variant>_<Company>_<YYYY-MM-DD>.md`
 Example: `Tupakula_TPM_PMO_MiracleSoft_2026-05-13.md`
 
-## markdown-resume Commands
+## markdown-resume Usage
 
-```bash
-# Install (once)
-npm install -g markdown-resume
+`junian/markdown-resume` is a **browser-based web app** (fork of Oh My CV!), not a CLI tool.
 
-# Generate PDF
-md2resume pdf <input.md> <output.pdf>
+**To generate PDF/HTML/DOCX from a `.md` resume:**
+1. Open https://www.junian.dev/markdown-resume/ in Chrome or Edge
+2. Paste the `.md` source content into the editor
+3. Use the in-app **Export** menu to save as PDF (A4 / US Letter), HTML, or DOCX
 
-# Generate HTML
-md2resume html <input.md> <output.html>
-```
+Data is stored locally in the browser — no server upload, no tracking.
 
 ## Available Resume Skills
 

@@ -6,6 +6,46 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a resume/career development workspace. Use the `paramchoudhary/resumeskills` skill suite for all resume and job application work.
 
+## Resume Format Standard
+
+All resumes in this project are written in **Markdown** and built using [junian/markdown-resume](https://github.com/junian/markdown-resume) — an ATS-friendly and human-readable resume tool.
+
+### Conventions
+- Source files live in `01_Variants/` and `00_Master/` as `.md` files
+- Use `markdown-resume` to generate PDF/HTML output from `.md` source files
+- When creating or editing resume content, write valid Markdown compatible with the `junian/markdown-resume` schema
+- Prefer semantic Markdown sections: `# Name`, `## Experience`, `## Education`, `## Skills`, etc.
+- Do not use raw HTML or non-standard Markdown extensions in resume `.md` files
+
+## Directory Structure
+
+| Folder | Purpose |
+|--------|---------|
+| `00_Master/` | Master resume source + changelog |
+| `01_Variants/` | Role-specific variants (AI_Product, TPM_PMO, Big_Tech_TPM, etc.) |
+| `02_CoverLetters/` | Cover letters keyed to applications |
+| `03_InterviewPrep/` | STAR stories and interview prep docs |
+| `04_Applications/` | `application_tracker.md` — tracks pipeline status |
+| `05_Archive/` | Old/unused versions |
+
+## File Naming Convention
+
+`Tupakula_<Variant>_<Company>_<YYYY-MM-DD>.md`
+Example: `Tupakula_TPM_PMO_MiracleSoft_2026-05-13.md`
+
+## markdown-resume Commands
+
+```bash
+# Install (once)
+npm install -g markdown-resume
+
+# Generate PDF
+md2resume pdf <input.md> <output.pdf>
+
+# Generate HTML
+md2resume html <input.md> <output.html>
+```
+
 ## Available Resume Skills
 
 | Task | Skill command |
